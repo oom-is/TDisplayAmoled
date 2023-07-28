@@ -81,7 +81,7 @@ void drawSprite() {
   sprite.setTextColor(TFT_WHITE, TFT_BLACK);
   sprite.drawString(counter, 10, 0, 7);
   sprite.setTextColor(rings[3], TFT_BLACK);
-  sprite.drawString("AMOLED", 298, -2,2);
+  sprite.drawString("AMOLED", 308, -2,2);
 
   sprite.setTextColor(rings[3], TFT_BLACK);
   sprite.loadFont(NotoSansMonoSCB20);
@@ -94,7 +94,7 @@ void drawSprite() {
 
   sprite.setTextColor(TFT_ORANGE, TFT_BLACK);
   sprite.loadFont(Latin_Hiragana_24);
-  sprite.drawString("SCANING...", fromLeft, 0);
+  sprite.drawString("SCANNING...", fromLeft, 0);
   sprite.unloadFont();
 
   //------------------------GRAPH-------------------------------
